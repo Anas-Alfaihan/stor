@@ -1,0 +1,54 @@
+
+header{
+    height: 80px;
+    border-bottom: dashed #cccccc 1px;
+}
+header h1{
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 24px;
+    letter-spacing: 6px;
+    line-height: 80px;
+    margin: 0;
+}
+header h1 a{
+    color: #222;
+    text-decoration: none;
+}
+.navbar{
+    font-family: 'Domine', serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 1px #ccc dashed;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 50px;
+    transition-duration: .6s;
+}
+.navbar li a:hover{
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+    padding: 0 28px;
+}
+.active{
+border-left: 2px solid #717074;
+}
+footer{
+    background-color: #222;
+    height: 50px;
+    color: #999;
+    text-align: center;
+    line-height: 50px;
+}  
